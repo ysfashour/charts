@@ -1,1 +1,1 @@
-# charts
+helm repo index ./ --url https://raw.githubusercontent.com/ysfashour/charts/main/Charts/

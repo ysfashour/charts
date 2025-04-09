@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  cloudberry:
+  - apiVersion: v2
+    created: "2025-04-09T19:50:47.844993+02:00"
+    dependencies:
+    - alias: argocd
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 6.9.3
+    digest: fe9f61902a1a0ed92bde92b2a5ed533dd80dd44432e2b7a6fa89c3cb2356803b
+    name: cloudberry
+    urls:
+    - https://raw.githubusercontent.com/ysfashour/charts/main/Charts/Charts/cloudberry-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-04-09T19:50:47.838731+02:00"
