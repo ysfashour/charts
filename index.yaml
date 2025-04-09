@@ -11,6 +11,6 @@ entries:
     digest: fe9f61902a1a0ed92bde92b2a5ed533dd80dd44432e2b7a6fa89c3cb2356803b
     name: cloudberry
     urls:
-    - https://raw.githubusercontent.com/ysfashour/charts/main/Charts/Charts/cloudberry-1.0.0.tgz
+    - https://raw.githubusercontent.com/ysfashour/charts/main/Charts/cloudberry-1.0.0.tgz
     version: 1.0.0
 generated: "2025-04-09T19:50:47.838731+02:00"
