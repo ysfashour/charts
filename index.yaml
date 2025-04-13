@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cloudberry:
   - apiVersion: v2
-    created: "2025-04-09T21:57:19.008233+02:00"
+    created: "2025-04-13T10:30:20.245358+02:00"
     dependencies:
     - alias: argocd
       name: argo-cd
@@ -15,14 +15,14 @@ entries:
     version: 1.0.0
   external-secrets:
   - apiVersion: v2
-    created: "2025-04-09T21:57:19.011299+02:00"
+    created: "2025-04-13T10:30:20.247996+02:00"
     dependencies:
     - name: external-secrets
       repository: https://charts.external-secrets.io
       version: 0.11.0
-    digest: eaddcda6a77b21b71f0b50bee16c92c58535e408665195ba6bd3753083af6834
+    digest: d9aecc564ccff540fd6ada3ff5a9813c72edf1e49616635fff6f5146197579c8
     name: external-secrets
     urls:
     - https://raw.githubusercontent.com/ysfashour/charts/refs/heads/main/Charts/external-secrets-1.0.0.tgz
     version: 1.0.0
-generated: "2025-04-09T21:57:19.001337+02:00"
+generated: "2025-04-13T10:30:20.237253+02:00"
