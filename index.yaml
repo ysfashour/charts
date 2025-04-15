@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cloudberry:
   - apiVersion: v2
-    created: "2025-04-13T10:30:20.245358+02:00"
+    created: "2025-04-15T15:02:05.775646+02:00"
     dependencies:
     - alias: argocd
       name: argo-cd
@@ -13,9 +13,26 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ysfashour/charts/refs/heads/main/Charts/cloudberry-1.0.0.tgz
     version: 1.0.0
+  cloudflare:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2025-04-15T15:02:05.7761+02:00"
+    description: cloudflare agent on k8s
+    digest: 549fee2e8185a892b6441857d6a270d66ce9ede1923cc2ea962874efc59b59eb
+    keywords:
+    - cloudflare
+    - dns
+    - tunnel
+    maintainers:
+    - email: thndr-devops
+      name: thndr-devops
+    name: cloudflare
+    urls:
+    - https://raw.githubusercontent.com/ysfashour/charts/refs/heads/main/Charts/cloudflare-1.tgz
+    version: "1"
   external-secrets:
   - apiVersion: v2
-    created: "2025-04-13T10:30:20.247996+02:00"
+    created: "2025-04-15T15:02:05.778961+02:00"
     dependencies:
     - name: external-secrets
       repository: https://charts.external-secrets.io
@@ -25,4 +42,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ysfashour/charts/refs/heads/main/Charts/external-secrets-1.0.0.tgz
     version: 1.0.0
-generated: "2025-04-13T10:30:20.237253+02:00"
+generated: "2025-04-15T15:02:05.769286+02:00"
