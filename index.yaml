@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cloudberry:
   - apiVersion: v2
-    created: "2025-04-15T15:02:05.775646+02:00"
+    created: "2025-04-16T12:58:35.687485+02:00"
     dependencies:
     - alias: argocd
       name: argo-cd
@@ -16,7 +16,7 @@ entries:
   cloudflare:
   - apiVersion: v1
     appVersion: "1"
-    created: "2025-04-15T15:02:05.7761+02:00"
+    created: "2025-04-16T12:58:35.687994+02:00"
     description: cloudflare agent on k8s
     digest: 549fee2e8185a892b6441857d6a270d66ce9ede1923cc2ea962874efc59b59eb
     keywords:
@@ -30,9 +30,22 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ysfashour/charts/refs/heads/main/Charts/cloudflare-1.tgz
     version: "1"
+  datadog:
+  - apiVersion: v2
+    created: "2025-04-16T12:58:35.692973+02:00"
+    dependencies:
+    - alias: datadog
+      name: datadog
+      repository: https://helm.datadoghq.com
+      version: 3.110.10
+    digest: dd6454698bba2fffb29afb30a2945455023cde01e8aecafd9d1570f7d3590239
+    name: datadog
+    urls:
+    - https://raw.githubusercontent.com/ysfashour/charts/refs/heads/main/Charts/datadog-3.110.10.tgz
+    version: 3.110.10
   external-secrets:
   - apiVersion: v2
-    created: "2025-04-15T15:02:05.778961+02:00"
+    created: "2025-04-16T12:58:35.695678+02:00"
     dependencies:
     - name: external-secrets
       repository: https://charts.external-secrets.io
@@ -42,4 +55,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/ysfashour/charts/refs/heads/main/Charts/external-secrets-1.0.0.tgz
     version: 1.0.0
-generated: "2025-04-15T15:02:05.769286+02:00"
+generated: "2025-04-16T12:58:35.680312+02:00"
